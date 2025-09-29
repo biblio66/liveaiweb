@@ -3,4 +3,8 @@ Live AI Web is an innovative platform that uses artificial intelligence to gener
 
 Simply describe what you need, and the AI creates a live webpage instantly.
 
-[![Watch the video](https://liveaiweb.com/ai_demo_preview.png)](https://liveaiweb.com/ai_demo.mp4)
+
+
+
+https://github.com/user-attachments/assets/2af7a418-e9d3-4fe4-9217-e3b1705b877b
+
