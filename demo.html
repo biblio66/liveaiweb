@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script>
+function generateLiveAIWeb() {
+    const socket = new WebSocket("ws://localhost:8765");
+
+    htmlTagArray = document.getElementsByClassName('liveaiweb');
+    for (htmlTag of htmlTagArray) {
+        socket.addEventListener("open", (event) => {
+            socket.send("/demo");
+        });
+        socket.addEventListener("message", (event) => {
+            htmlTag.innerHTML = event.data;
+        });
+    }
+}
+</script>
+
+<body onload="generateLiveAIWeb();" class="liveaiweb">
+Demo
+</body>
+</html>
