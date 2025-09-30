@@ -1,4 +1,4 @@
-## Live AI Web
+## Live AI Web (Beta)
 Live AI Web is an innovative platform that uses artificial intelligence to generate fully functional websites in real-time.
 
 Simply describe what you need, and the AI creates a live webpage instantly.
